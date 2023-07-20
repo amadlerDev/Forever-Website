@@ -6,9 +6,9 @@
 
 // local import
 import Menu from './Menu.js';
-import Home from './Home.js';
-import Shop from './Shop.js';
-import Contact from './Contact.js';
+import Home from './pages/Home.js';
+import Shop from './pages/Shop.js';
+import Contact from './pages/Contact.js';
 import './css/App.css';
 
 // dependencies

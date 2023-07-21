@@ -40,10 +40,43 @@ nav {
 }
 
 
+/* menu */
 ul {
   list-style-type: none;
   padding-inline-end: 40px;
 }
 li {
   margin: 10px 0;
+}
+
+
+
+/* shop page */
+.shop {
+  padding: 3%;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 15%;
+  gap: 2%;
+}
+.products a:nth-child(2) {
+  grid-column: 3;
+  grid-row: 2 / 4;
+}
+.products a:nth-child(5) {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+.product img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* contact page */
+.contact {
+  padding: 3%;
 }

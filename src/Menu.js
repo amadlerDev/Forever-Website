@@ -1,5 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
-
+// run bootstrap
+// npm install bootstrap@5.3.0
+// and file with sass
+// (var) $temp: $fff; + nestting. not relavent anymoe?
+// Then import Bootstrap
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 const Menu = () => {

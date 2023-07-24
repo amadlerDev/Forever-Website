@@ -1,17 +1,24 @@
 .App {
     width: 100%;
 }
-
+/*
 .App-logo {
     height: 40vmin;
     pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
     }
 }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
 
 .App-header {
   display: flex;
@@ -25,18 +32,12 @@ nav {
     font-size: calc(10px + 2vmin);
     color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header div {
+  width: 100%;
+  padding: 30px;
+  background: url(../assets/background-textured-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -79,4 +80,19 @@ li {
 /* contact page */
 .contact {
   padding: 3%;
+}
+
+
+/* home page */
+section.facts {
+  width: 80%;
+  margin-inline: auto;
+}
+section.facts h3 {
+    padding-inline: 60px;
+}
+.facts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 0;
 }

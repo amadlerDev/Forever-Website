@@ -1,24 +1,10 @@
 import productImg from '../assets/background-home.jpeg';
 
 
-const products = [
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-    <Product />, 
-]
+const products = [];
+for(let i = 0; i < 16; i++){
+    products.push(<Product />);
+}
 
 function Product() {
     return (

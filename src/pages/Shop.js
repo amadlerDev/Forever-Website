@@ -16,7 +16,7 @@ function Product() {
 
 const Shop = () => {
     return (
-        <div className="shop">
+        <div className="shop content">
             <h4>Shop</h4>
             <div className="products">{products}</div>
         </div>

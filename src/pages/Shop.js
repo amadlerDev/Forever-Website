@@ -10,6 +10,10 @@ function Product() {
     return (
         <a className="product" href="#">
             <img src="http://localhost:3000/static/media/background-home.3fc549e20848875296aa.jpeg" alt="product" />
+            <div>
+                <p>asfljkfh</p>
+                <button>Buy Me</button>
+            </div>
         </a>
     )
 };
